@@ -1,0 +1,103 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Float caixas</title>
+    <meta author="Cristian AD">
+  </head>
+
+    <style>
+    body{
+      margin: 0;
+      padding: : 0 auto;
+    }
+
+      #contenedor {
+        width: 800px;
+        margin: 0 auto;
+      }
+       #cap {
+         width: 100%;
+         height: 150px;
+         background-color: blue;
+         background-image: url(cafe.jpg);
+         color: ivory;
+         text-align: center;
+         line-height: 150px;
+       }
+       #menu{
+         width: 38.75%;
+         height: 790px;
+         float: left;
+         background-color: cyan;
+         border: dotted 5px black;
+         clear: left;
+       }
+
+       #principal{
+         width: 60%;
+         height: 800px;
+         float: right;
+         background-color: green;
+       }
+
+      #peu {
+        width: 100%;
+        height: 100px;
+        background-color: yellow;
+        clear: both;
+      }
+
+      ul {
+        background-color: gold;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+      }
+
+      li {
+        background-color: orange;
+        margin: 1px;
+        height: 30px;
+        padding: 10px;
+        display: block;
+        float: left;
+        font-family: helvetica;
+        font-variant: small-caps;
+      }
+      li:hover {
+        background-color: white;
+      }
+
+    </style>
+
+  <body>
+          <div id="contenedor">
+
+              <div id="cap" class="float">
+                <h1>CupCoffe </h1>
+              </div>
+
+              <ul>
+                <li> Inici </li>
+                <li> Productes</li>
+                <li> Servei </li>
+                <li> Botiga </li>
+                <li> Contacte </li>
+              </ul>
+
+              <div id="menu" class="float">
+
+              </div>
+
+              <div id="principal" class="float">
+                principal
+              </div>
+
+              <div id="peu" class="float">
+                peu
+              </div>
+          </div>
+  </body>
+
+</html>

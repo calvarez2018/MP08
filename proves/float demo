@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Float</title>
+    <meta author="Cristian AD">
+  </head>
+
+  <style>
+      #primer{
+          background-color: red;
+          width: 98%;
+        }
+
+      #segon{
+          background-color: blue;
+          float: right;
+          width: 30%;
+          height: 400px;
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+
+      #tercer{
+          background-color: green;
+          float: left;
+          width: 30%;
+          height: 400px;
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+
+      #quart{
+          background-color: yellow;
+            float: left;
+            width: 30%;
+            height: 700px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+      #cinque{
+          background-color: orange;
+          width: 98%;
+        }
+
+      div{
+        margin: 10px;
+        border:solid 5px black;
+        font-size: 20px;
+        text-align: center;
+        width: 250px;
+        height: 40px;
+        bottom: 3px;
+        padding: 5px;
+        font-family: helvetica;
+        overflow: hidden;
+
+      }
+  </style>
+
+  <body>
+    <div id="primer" class="quadrat">
+     <p> 1 </p>
+    </div>
+
+    <div id="segon" class="quadrat">
+       <p> 2 </p>
+    </div>
+
+    <div id="tercer" class="quadrat">
+      <p> 3 </p>
+    </div>
+
+    <div id="quart" class="quadrat">
+      <p> 4 </p>
+    </div>
+
+    <div id="cinque" class="quadrat">
+      <p> 5 </p>
+    </div>
+
+
+  </body>
+
+
+</html>
