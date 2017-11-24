@@ -1,0 +1,303 @@
+
+      body{
+        margin:0;
+        padding: 0;
+        background-color: #c5c5c5;
+        font-family: Lucida Grande, Tahoma, Segoe UI, san francisco, Roboto;
+      }
+
+      #barra{
+        height: 43px;
+        background-color: #395ca9;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        z-index: 100px;
+      }
+
+      #cont{
+        width: 852px;
+        background-color: #FFF;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+
+      #portada{
+        height:320px;
+        background-image:url(../img/portada.jpg);
+        margin-top: 43px;
+      }
+
+      #perfil{
+        width: 170px;
+        border: solid 4px white;
+        border-radius: 4px;
+        top:  168px;
+        left: 20px;
+        position: relative;
+        z-index: 1px;
+        box-shadow: 0 0 4px black;
+      }
+
+      #nom{
+        text-shadow: 0 0 5px #000;
+        color: white;
+        width: 320px;
+        position: relative;
+        top: 80px;
+        left: 210px;
+        color:white;
+        font-family: Lucida Grande, Tahoma, Segoe UI, san francisco, Roboto;
+      }
+
+      #menu{
+        height: 44px;
+        background-color: #c5c5c5;
+        padding: 0px;
+        margin: 0;
+        width: 475px;
+        margin-left: 192px;
+
+      }
+
+      #menu li {
+        float: left;
+        padding: 0 18px;
+        display: block;
+        font-weight: bold;
+        color: #334F8D;
+        margin-right: 1px;
+        height: 44px;
+        background-color: white;
+        margin: 0 0 0 1px;
+        line-height: 44px;
+      }
+
+      #menu li:hover {
+        color: #000;
+        background-image:url(../img/select.gif);
+        background-repeat: no-repeat;
+        background-position: 50% 37px;
+      }
+
+      #contingut{
+        border-top: solid 1px #c5c5c5;
+      }
+
+      .esquerra{
+        width: 323px;
+        margin: 10px 0;
+        border: solid 1px #ccc;
+        border-radius: 3px;
+      }
+
+      .esquerra h4{
+        background-color: yellow;
+        height: 14px;
+        padding: 5px;
+        font-weight: normal;
+        font-size: 16px;
+        text-indent: 36px;
+        background-image: url(../img/iconos.png);
+        background-repeat:no-repeat;
+        margin:0;
+      }
+
+      .cole{
+        background-image: url(../img/estudis.png);
+        background-repeat:no-repeat;
+        height: 14px;
+        padding: 5px;
+        font-size: 16px;
+        text-indent: 16px;
+        background-position: 0 7px;
+      }
+
+      .ciutat{
+        background-image: url(../img/domicili.png);
+        background-repeat:no-repeat;
+        height: 14px;
+        padding: 5px;
+        font-size: 16px;
+        text-indent: 16px;
+        background-position: 0 7px;
+      }
+
+      .treballa{
+        background-image: url(../img/feina.png);
+        background-repeat:no-repeat;
+        height: 14px;
+        padding: 5px;
+        font-size: 16px;
+        text-indent: 16px;
+        background-position: 0 7px;
+      }
+
+      .amor{
+        background-image: url(../img/sentimental.png);
+        background-repeat:no-repeat;
+        height: 14px;
+        padding: 5px;
+        font-size: 16px;
+        text-indent: 16px;
+        background-position: 0 7px;
+      }
+
+      .cumple{
+        background-image: url(../img/esdeveniments.png);
+        background-repeat:no-repeat;
+        height: 14px;
+        padding: 5px;
+        font-size: 16px;
+        text-indent: 16px;
+        background-position: 0 7px;
+      }
+
+      .web{
+        background-image: url(../img/rss.png);
+        background-repeat:no-repeat;
+        height: 14px;
+        padding: 5px;
+        font-size: 16px;
+        text-indent: 16px;
+        background-position: 0 7px;
+      }
+
+
+      #presentacio h4 {
+        background-position: 0 0px;
+
+      }
+
+      #amics h4 {
+        background-position: 0 -48px;
+      }
+
+      #fotos h4 {
+          background-position: 0 -24px;
+      }
+
+      #presentacio li {
+          display: block;
+      }
+
+      #amics li {
+          display: block;
+      }
+
+      #fotos li {
+          display: block;
+      }
+
+      #presentacio li {
+        border-top:solid 1px  #ccc;
+        height: 20px;
+      }
+
+      #fotos ul li{
+        background-color: yellow;
+        display: block;
+        width: 32%;
+        height: 99px;
+        width: 99px;
+        margin: 4px;
+        float: left;
+        text-shadow: 0 0 2 #000;
+      }
+
+      .esquerra ul{
+        margin-top: 20px;
+      }
+
+      #fotos ul{
+        overflow:hidden;
+        margin: 0;
+        padding: 0;
+      }
+
+      #f01 {
+        background-image: url(../img/fotos/f01.jpg);
+      }
+
+      #f02 {
+        background-image: url(../img/fotos/f02.jpg);
+      }
+      #f03 {
+        background-image: url(../img/fotos/f03.jpg);
+      }
+      #f04 {
+        background-image: url(../img/fotos/f04.jpg);
+      }
+      #f05 {
+        background-image: url(../img/fotos/f05.jpg);
+      }
+      #f06 {
+        background-image: url(../img/fotos/f06.jpg);
+      }
+      #f07 {
+        background-image: url(../img/fotos/f07.jpg);
+      }
+      #f08 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #f09 {
+        background-image: url(../img/fotos/f09.jpg);
+      }
+
+
+      #amics ul li{
+        background-color:;
+        display: block;
+        height: 99px;
+        width: 99px;
+        margin: 4px;
+        float: left;
+        background-size: 99px 99px;
+        line-height: 178px;
+        text-shadow: 0 0 2 #000;
+        text-indent: 5px;
+      }
+
+      #amics ul{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+
+      #ft1 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft2 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft3 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft4 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft5 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft6 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft7 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft8 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft9 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft10 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft11 {
+        background-image: url(../img/perfil.jpg);
+      }
+      #ft12 {
+        background-image: url(../img/perfil.jpg);
+      }
